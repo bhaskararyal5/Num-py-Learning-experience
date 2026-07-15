@@ -23,3 +23,4 @@ print(word)
 
 #array slicing
 print(array[0:2,1:3])
+
