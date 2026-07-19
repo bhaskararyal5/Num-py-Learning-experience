@@ -21,6 +21,11 @@ plt.title("Class size",fontsize=20,
 plt.xlabel("Year",fontsize=20)
 plt.ylabel("Students",fontsize=20)
 
+plt.grid(axis="x",
+        linewidth=2,
+        color="lightgray",
+        linestyle="dashed")
+        
 plt.plot(x1,y1,color="cyan",**line_style)
 plt.plot(x1,y2,color="green",**line_style)
 
